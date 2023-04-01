@@ -10,9 +10,9 @@
 
 ### **Respuestas**
 
-1. Acceso no autorizado: Un problema común en los entornos compartidos es que los usuarios obtienen acceso a archivos, datos y recursos a los que no deberían tener acceso. Los usuarios maliciosos que acceden a información confidencial o realizan cambios no autorizados en el sistema pueden comprometer la seguridad del sistema y la privacidad de otros usuarios.
+1. **Acceso no autorizado:** Un problema común en los entornos compartidos es que los usuarios obtienen acceso a archivos, datos y recursos a los que no deberían tener acceso. Los usuarios maliciosos que acceden a información confidencial o realizan cambios no autorizados en el sistema pueden comprometer la seguridad del sistema y la privacidad de otros usuarios.
 
-2. Malware: los entornos compartidos también pueden ser vulnerables a la propagación de malware. Si un usuario descarga o ejecuta un archivo infectado, puede propagarlo a otros usuarios del sistema. Si un usuario tiene un software antivirus instalado, pero otro usuario en el sistema no lo tiene y descarga un archivo infectado, podría estar en riesgo.
+2. **Malware:** los entornos compartidos también pueden ser vulnerables a la propagación de malware. Si un usuario descarga o ejecuta un archivo infectado, puede propagarlo a otros usuarios del sistema. Si un usuario tiene un software antivirus instalado, pero otro usuario en el sistema no lo tiene y descarga un archivo infectado, podría estar en riesgo.
 
 ## **2. Un problema común en los OS es la utilización de recursos. Enumere los recursos que deben gestionarse en las siguientes máquinas (Explique por qué):**
 
@@ -24,22 +24,22 @@
 
 ### **Respuestas**
 
-**1.** Sistemas embebidos: En los sistemas embebidos, los recursos que deben gestionarse son la memoria y el procesamiento. La memoria es un recurso importante ya que estos sistemas tienen un límite de memoria y por lo general no se pueden ampliar. El procesamiento también es importante, ya que los sistemas embebidos suelen tener procesadores de baja potencia y, por lo tanto, no pueden manejar una carga de trabajo muy intensiva.
+1. **Sistemas embebidos:** En los sistemas embebidos, los recursos que deben gestionarse son la memoria y el procesamiento. La memoria es un recurso importante ya que estos sistemas tienen un límite de memoria y por lo general no se pueden ampliar. El procesamiento también es importante, ya que los sistemas embebidos suelen tener procesadores de baja potencia y, por lo tanto, no pueden manejar una carga de trabajo muy intensiva.
 
-**2.** Mainframe: En los mainframes, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y el ancho de banda. La memoria es importante para permitir la ejecución de múltiples tareas al mismo tiempo. El procesamiento es importante para garantizar un alto rendimiento de la máquina. El almacenamiento es muy importante ya que los mainframes procesan cantidades muy grandes de datos. Finalmente, el ancho de banda es importante para garantizar una comunicación eficiente con otros sistemas.
+2. **Mainframe:** En los mainframes, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y el ancho de banda. La memoria es importante para permitir la ejecución de múltiples tareas al mismo tiempo. El procesamiento es importante para garantizar un alto rendimiento de la máquina. El almacenamiento es muy importante ya que los mainframes procesan cantidades muy grandes de datos. Finalmente, el ancho de banda es importante para garantizar una comunicación eficiente con otros sistemas.
 
-**3.** Workstation: En las workstations, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y los dispositivos de entrada/salida. La memoria es importante para permitir la ejecución de múltiples aplicaciones. El procesamiento es importante para garantizar un alto rendimiento de la máquina. El almacenamiento ya que las workstations manejan grandes cantidades de datos. Finalmente, los dispositivos de entrada/salida son importantes para permitir a los usuarios interactuar con la máquina.
+3. **Workstation:** En las workstations, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y los dispositivos de entrada/salida. La memoria es importante para permitir la ejecución de múltiples aplicaciones. El procesamiento es importante para garantizar un alto rendimiento de la máquina. El almacenamiento ya que las workstations manejan grandes cantidades de datos. Finalmente, los dispositivos de entrada/salida son importantes para permitir a los usuarios interactuar con la máquina.
 
-**4.** Server: En los servidores, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y la red. La memoria es importante para permitir la ejecución de múltiples tareas al mismo tiempo. El procesamiento es importante para un alto rendimiento de la máquina. El almacenamiento es crítico ya que los servidores procesan grandes cantidades de datos. Por último, la red es importante para garantizar una comunicación eficiente entre los servidores y otros sistemas.
+4. **Server:** En los servidores, los recursos que deben gestionarse son la memoria, el procesamiento, el almacenamiento y la red. La memoria es importante para permitir la ejecución de múltiples tareas al mismo tiempo. El procesamiento es importante para un alto rendimiento de la máquina. El almacenamiento es crítico ya que los servidores procesan grandes cantidades de datos. Por último, la red es importante para garantizar una comunicación eficiente entre los servidores y otros sistemas.
 
-**5.** Mobile: En los dispositivos móviles, los recursos que deben gestionarse son la batería, el procesamiento y la memoria. La batería es un recurso crítico ya que los dispositivos móviles deben ser portátiles y, por lo tanto, no pueden depender de una fuente de alimentación constante. El procesamiento es importante para garantizar un alto rendimiento del dispositivo. La memoria es importante para permitir la ejecución de aplicaciones y el almacenamiento de datos.
+5. **Mobile:** En los dispositivos móviles, los recursos que deben gestionarse son la batería, el procesamiento y la memoria. La batería es un recurso crítico ya que los dispositivos móviles deben ser portátiles y, por lo tanto, no pueden depender de una fuente de alimentación constante. El procesamiento es importante para garantizar un alto rendimiento del dispositivo. La memoria es importante para permitir la ejecución de aplicaciones y el almacenamiento de datos.
 
 ## **3. Caracterice dos casos de uso par aimplementar un OS para servidor y PC.**
 
 **Respuestas**
-- OS de servidor: Un servidor de archivos que almacena y distribuye diferentes tipos de archivos entre los clientes de la red. Los servidores de archivos permiten que los usuarios compartan archivos y carpetas en una red. Además, los servidores de archivos también ofrecen características como backup y recuperación, escalabilidad y rendimiento. El OS más popular para servidores son las distintas distribuciones de Linux, como Ubuntu Server, CentOS, Debian, etc.
+- **OS de servidor:** Un servidor de archivos que almacena y distribuye diferentes tipos de archivos entre los clientes de la red. Los servidores de archivos permiten que los usuarios compartan archivos y carpetas en una red. Además, los servidores de archivos también ofrecen características como backup y recuperación, escalabilidad y rendimiento. El OS más popular para servidores son las distintas distribuciones de Linux, como Ubuntu Server, CentOS, Debian, etc.
 
-- OS para PC: Un sistema operativo para PC es un sistema operativo diseñado para ejecutarse en una computadora personal. Un caso de uso puede ser jugar videojuegos, editar videos, etc. Los sistemas operativos más populares para PC son Windows, macOS y Linux. En general, cualquier tarea cotidiana que involucre una computadora se puede realizar con estos sistemas operativos.
+- **OS para PC:** Un sistema operativo para PC es un sistema operativo diseñado para ejecutarse en una computadora personal. Un caso de uso puede ser jugar videojuegos, editar videos, etc. Los sistemas operativos más populares para PC son Windows, macOS y Linux. En general, cualquier tarea cotidiana que involucre una computadora se puede realizar con estos sistemas operativos.
 
 ## **4. Compare las diferencias entre multiprocesamiento simétrico y asimétrico.**
 
@@ -77,6 +77,30 @@ En resumen, las excepciones son una forma de manejar errores en el software, mie
 
 ### **Respuestas**
 
-**La CPU y el dispositivo se comunican a través de un controlador DMA (acceso directo a memoria) que permite al dispositivo acceder a la memoria del sistema para leer o escribir independientemente de la CPU. El controlador DMA es programado por la CPU para realizar una transferencia de datos entre el dispositivo y la memoria. La CPU establece los registros de dirección y contador de palabras del controlador DMA para indicar la ubicación de la memoria y el tamaño del bloque de datos que se va a transferir.
+1. La CPU y el dispositivo se comunican a través de un controlador DMA (acceso directo a memoria) que permite al dispositivo acceder a la memoria del sistema para leer o escribir independientemente de la CPU. El controlador DMA es programado por la CPU para realizar una transferencia de datos entre el dispositivo y la memoria. La CPU establece los registros de dirección y contador de palabras del controlador DMA para indicar la ubicación de la memoria y el tamaño del bloque de datos que se va a transferir.
 
-La CPU sabe que las operaciones de memoria se han completado cuando recibe una señal de interrupción del controlador DMA. El controlador DMA envía una señal de interrupción a la CPU cuando la transferencia finaliza.
+2. La CPU sabe que las operaciones de memoria se han completado cuando recibe una señal de interrupción del controlador DMA. El controlador DMA envía una señal de interrupción a la CPU cuando la transferencia finaliza.
+
+## **8. Identifique dos razones por las que la cache es útil. ¿Qué problemas resuelve y causa?**
+
+### **Respuestas**
+
+La caché es útil porque permite que los datos se accedan más rápidamente. Además de su velocidad, guarda datos que son importantes para que sean accedidos más facilmente.
+
+La caché resuelve problemas como la lentitud en el acceso a los datos y la necesidad de acceder a los mismos datos varias veces. Sin embargo, la caché también puede causar problemas como servir una versión más antigua y en caché de una página web.
+
+## **9. Explique con un ejemplo, como se manifiesta el problema de mantener la coherencia de los datos de cache en los siguientes entornos:**
+
+- **Sistema distribuido**
+- **Sistema multiprocesador**
+- **Sistema de un solo procesador**
+
+### **Respuestas**
+
+La coherencia de caché es un problema que surge cuando se almacenan los mismos datos en más de una caché. Cuando los clientes de un sistema, en particular las CPUs en un multiprocesador, mantienen cachés de una memoria compartida, los conflictos crecen. La coherencia de la caché intenta administrar estos conflictos y mantener consistencia entre las cachés y la memoria.
+
+1. **Sistema distribuido:** Si un nodo actualiza un dato en su caché local, pero no notifica a otros nodos, estos continuarán trabajando con una versión desactualizada del dato en sus cachés locales.
+
+2. **Sistema multiprocesador:** Si un procesador actualiza un dato en su caché local, pero no notifica a otros procesadores, estos continuarán trabajando con una versión desactualizada del dato en sus cachés locales.
+
+3. **Sistema de un solo procesador:** Si el procesador actualiza un dato en un nivel de caché, pero no notifica a otros niveles de caché, estos continuarán trabajando con una versión desactualizada del dato.
