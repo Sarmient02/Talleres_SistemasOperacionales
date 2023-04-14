@@ -81,7 +81,6 @@ Otra manera es utilizar herramientas específicas de un lenguaje de programació
 | Requiere que el programador escriba explícitamente el código para acceder a la memoria compartida y sincronizar los accesos concurrentes. | Requiere que el programador especifique explícitamente el vínculo de comunicación entre los procesos y el tamaño y formato de los mensajes. |
 | Puede generar conflictos o inconsistencias si varios procesos escriben en la misma ubicación simultáneamente. | Lleva más tiempo que la memoria compartida, ya que implica la intervención del kernel y el uso de la red para el intercambio de mensajes. |
 | Puede ser difícil de implementar en sistemas distribuidos donde los procesos residen en máquinas remotas. | Puede generar sobrecarga o congestión si se envían muchos mensajes o si los mensajes son muy grandes. |
-| | |
 
 ## **8. Conteste las siguientes preguntas:**
 
@@ -110,4 +109,3 @@ Algunas desventajas de usar la arquitectura de microkernel son:
 | Proporcionan una mayor seguridad al aislar los sistemas operativos invitados de los anfitriones y evitar que se propaguen virus o malware. | Reducen el rendimiento del sistema operativo, ya que acceden al hardware de forma indirecta y generan sobrecarga en el procesador y la memoria. |
 | Facilitan la portabilidad, el mantenimiento y la recuperación de los sistemas operativos, ya que se almacenan como archivos que se pueden copiar, mover o restaurar fácilmente. | Pueden generar problemas de compatibilidad o estabilidad con algunos dispositivos o aplicaciones que no están diseñados para funcionar en un entorno virtualizado. |
 | Permiten probar y experimentar con diferentes sistemas operativos sin afectar al sistema principal. | Pueden generar dependencia del proveedor de virtualización o dificultades para migrar a otro proveedor. |
-| | |
