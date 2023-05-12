@@ -121,14 +121,14 @@ Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja
 | $p_4$   | 1                | 3                |
 | $p_5$   | 5                | 44               |
 
-## **8. ¿Puede una solución multihilo que utiliza múltiples hilos de usuario conseguir mejor rendimiento en un sistema multiprocesador que en un sistema de un solo procesador?**
-
-### **Respuestas**
-
-En general, se puede decir que una solución multihilo puede conseguir mejor rendimiento en un sistema multiprocesador que en uno de un solo procesador, siempre que los hilos se puedan distribuir entre los distintos núcleos o procesadores de forma eficiente y que no haya demasiada contención por los recursos compartidos. Sin embargo, hay casos en los que el rendimiento puede empeorar al aumentar el número de hilos o procesadores, por ejemplo, cuando hay mucha comunicación o sincronización entre los hilos, o cuando el problema no se puede dividir en subproblemas independientes.
-
-## **9. Suponga que el numero de hilos del usuario es mayor que el numero de procesadores del sistema. Explique el impacto sobre el rendimiento cuando el numero de hilos del kernel asignados al programa es menor que el numero de procesadores**
+## **8. ¿Qué algoritmo puede dar luegar a bloqueos indefinidos?**
 
 ### **Respuesta**
 
-Los hilos de usuario son los que se crean y gestionan por el programa de usuario, mientras que los hilos del kernel son los que se crean y gestionan por el sistema operativo. Cuando el número de hilos de usuario es mayor que el número de procesadores del sistema, se produce una **sobrecarga** de programación, ya que el sistema operativo tiene que asignar y desasignar los procesadores a los hilos de usuario con frecuencia. Cuando el número de hilos del kernel asignados al programa es menor que el número de procesadores, se produce una **infrautilización** de los recursos, ya que algunos procesadores pueden quedar ociosos mientras hay hilos de usuario esperando a ser ejecutados. Por lo tanto, el rendimiento del programa se ve afectado negativamente en ambos casos.
+El algoritmo de planificación por prioridades puede dar lugar a bloqueos indefinidos o inanición. Esto sucede cuando un proceso de baja prioridad se queda esperando indefinidamente porque procesos de alta prioridad impiden que llegue a la CPU. En sistemas con grandes cargas de trabajo, es probable que esto ocurra y el proceso de baja prioridad nunca se ejecute. Para abordar este problema, se pueden aplicar mecanismos de envejecimiento que aumentan la prioridad de los procesos de baja prioridad a medida que pasa el tiempo.
+
+## **9. Considere un sistema que implementa una planificación por colas multinivel. ¿Qué estrategia puede utilizar una computadora para maximizar la cantidad de tiempo de CPU asignada al proceso del usuario?**
+
+### **Respuesta**
+
+En un sistema que implementa la planificación por colas multinivel, una estrategia que puede utilizar una computadora para maximizar la cantidad de tiempo de CPU asignada al proceso de un usuario es asignar el proceso a una cola de alta prioridad. Esto se puede hacer estableciendo la prioridad del proceso en función de factores como su importancia, requisitos de recursos o preferencias del usuario. Otra estrategia es utilizar mecanismos de envejecimiento para aumentar gradualmente la prioridad de los procesos que han estado esperando durante mucho tiempo en colas de menor prioridad. Esto puede ayudar a prevenir el bloqueo indefinido o la inanición de procesos de baja prioridad.
