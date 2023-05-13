@@ -97,8 +97,8 @@ Dibuje el diagrama de Gantt para FCFS, SJF, por prioridades (# de prioridad baja
 | ------- | ---------------- | ---------------- |
 | $p_2$   | 1                | 0                |
 | $p_4$   | 1                | 1                |
-| $p_5$   | 5                | 2                |
-| $p_3$   | 2                | 7                |
+| $p_3$   | 2                | 2                |
+| $p_5$   | 5                | 4                |
 | $p_1$   | 10               | 9                |
 
 ## **Prioridades**
