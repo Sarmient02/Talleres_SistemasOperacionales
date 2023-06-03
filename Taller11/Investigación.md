@@ -82,7 +82,7 @@ Para soportar la asignación dinámica de memoria en los siguientes esquemas se 
 
 ### **Respuesta**
 
-Los esquemas de organización de la memoria principal basados en una asignación continua de memoria, en una segmentación pura y una paginación pura son diferentes formas de gestionar el espacio de memoria disponible para los procesos. Cada uno tiene sus ventajas y desventajas con respecto a la fragmentación externa, la fragmentación interna y la capacidad de compartir código. A continuación te presento una tabla comparativa de estos aspectos:
+Los esquemas de organización de la memoria principal basados en una asignación continua de memoria, en una segmentación pura y una paginación pura son diferentes formas de gestionar el espacio de memoria disponible para los procesos. Cada uno tiene sus ventajas y desventajas con respecto a la fragmentación externa, la fragmentación interna y la capacidad de compartir código.
 
 | Esquema             | Fragmentación externa                                                                                                                      | Fragmentación interna                                                                                                                                     | Capacidad de compartir código                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
